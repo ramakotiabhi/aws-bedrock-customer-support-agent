@@ -22,6 +22,7 @@ my-project/
 ## Getting Started
 
 ```markdown
+
 # Customer Support AI Agent with Amazon Bedrock AgentCore
 
 ## Project Summary
@@ -72,7 +73,6 @@ Lambda Functions      Amazon S3 +        Discount /        Live Amazon.com
 ```
 
 ---
-
 ## AWS Infrastructure & Resource Configuration
 
 | Resource | Identifier / Endpoint | Details |
@@ -82,9 +82,15 @@ Lambda Functions      Amazon S3 +        Discount /        Live Amazon.com
 | **Knowledge Base ID** | `KFZVEX6FMZ` | Amazon Titan Embeddings v2 + OpenSearch Serverless |
 | **Memory Resource ID** | `CustomerSupportMemory-jcUBDw4Jto` | Semantic facts & user preferences strategies |
 | **Gateway Endpoint** | `https://customersupportgateway-oef4vsera6.gateway.bedrock-agentcore.us-east-1.amazonaws.com/mcp` | MCP endpoint for order and refund tools |
-| **Execution Role** | `AgentCore-CustomerSupport-ApplicationAgentMyAgentRu-sgoCiekBlTH9` | IAM role attached with project execution access |
+| **Execution Role** | `AgentCore-CustomerSupport-ApplicationAgentMyAgentRu-sgoCiekBlTH9` | IAM role attached with project execution access|
 
----
+--
+
+<img width="1080" height="759" alt="Screenshot 2026-09-17 154109" src="https://github.com/user-attachments/assets/be896da5-4af6-4f03-9673-2a379840a898" />
+
+<img width="1137" height="572" alt="Screenshot 2026-09-17 154532" src="https://github.com/user-attachments/assets/1fe5564b-f04b-4b19-9530-6a27809664b7" />
+
+<img width="308" height="459" alt="Screenshot 2026-09-17 150752" src="https://github.com/user-attachments/assets/47acbd8a-0b0f-44a8-a35c-cb8534221739" />
 
 ## Memory Strategy & Strands Integration
 
@@ -115,7 +121,8 @@ agentcore invoke '{"prompt": "Where is my order ORD-001?", "customer_id": "CUST-
 
 
 ```
-<img width="1508" height="117" alt="Screenshot 2026-09-21 215055" src="https://github.com/user-attachments/assets/bb052fb0-8e01-4a83-9587-7d47241ce89d" />
+<img width="1506" height="205" alt="Screenshot 2026-09-21 214956" src="https://github.com/user-attachments/assets/345d7d79-9d87-4444-99a9-a4fb1c00754e" />
+
 ---
 
 ### Scenario 2: Refund Processing
@@ -133,7 +140,7 @@ agentcore invoke '{"prompt": "I want to initiate a refund for order ORD-002 with
 }
 
 ```
-
+<img width="1508" height="117" alt="Screenshot 2026-09-21 215055" src="https://github.com/user-attachments/assets/bb052fb0-8e01-4a83-9587-7d47241ce89d" />
 ---
 
 ### Scenario 3: Knowledge Base RAG Query
@@ -151,6 +158,7 @@ agentcore invoke '{"prompt": "What is the return policy window for opened electr
 }
 
 ```
+<img width="1506" height="87" alt="Screenshot 2026-09-21 215110" src="https://github.com/user-attachments/assets/733805c4-cd2e-4189-b104-e58968818654" />
 
 ---
 
@@ -187,6 +195,7 @@ agentcore invoke '{"prompt": "What is my preferred contact method and primary de
 }
 
 ```
+<img width="1502" height="349" alt="Screenshot 2026-09-21 221544" src="https://github.com/user-attachments/assets/f1b0dd67-dbd0-4fda-a592-4c9408ccf75e" />
 
 ---
 
@@ -205,6 +214,7 @@ agentcore invoke '{"prompt": "Calculate my loyalty discount for an order total o
 }
 
 ```
+<img width="1506" height="120" alt="Screenshot 2026-09-21 215236" src="https://github.com/user-attachments/assets/ad2f395f-9ebc-4e6c-ac51-77d6535166c4" />
 
 ---
 
@@ -223,6 +233,7 @@ agentcore invoke '{"prompt": "Use the browser tool to visit [https://aws.amazon.
 }
 
 ```
+<img width="1507" height="122" alt="Screenshot 2026-09-21 215317" src="https://github.com/user-attachments/assets/1a6fcb93-8c01-4eb1-886d-91cf6711e154" />
 
 ---
 
@@ -234,10 +245,21 @@ agentcore invoke '{"prompt": "Use the browser tool to visit [https://aws.amazon.
 * Metric Namespace: `AgentCore/Monitoring`
 * Metric Name: `RuntimeErrorCount`
 
+<img width="885" height="708" alt="Screenshot 2026-09-21 223144" src="https://github.com/user-attachments/assets/64779c91-cfc5-49c9-a4b2-b5d0d8a060c4" />
+
+<img width="870" height="797" alt="Screenshot 2026-09-21 223150" src="https://github.com/user-attachments/assets/e18cc26a-b2e7-4001-98cc-e295e3097d31" />
+
+<img width="1049" height="770" alt="Screenshot 2026-09-21 223423" src="https://github.com/user-attachments/assets/3922137d-d572-4aae-8c5e-db23df26cbfd" />
+<img width="1228" height="506" alt="Screenshot 2026-09-21 224212" src="https://github.com/user-attachments/assets/a2a16fef-7439-4680-b104-8b58a159854d" />
+<img width="1060" height="808" alt="Screenshot 2026-09-21 223912" src="https://github.com/user-attachments/assets/13155c55-3785-4aa3-bea7-9b96131e7ef3" />
+<img width="985" height="705" alt="Screenshot 2026-09-21 224220" src="https://github.com/user-attachments/assets/a518b2d5-59dd-4ba0-84eb-cf6ed8623b46" />
+
+<img width="992" height="562" alt="Screenshot 2026-09-21 224230" src="https://github.com/user-attachments/assets/5d5811ba-3861-468c-be5b-c4485ccab4d1" />
 
 3. **CloudWatch Alarm**:
 * Condition: `RuntimeErrorCount >= 5` within a 5-minute evaluation period.
 * Action: Alerts DevOps team via Amazon SNS.
+<img width="545" height="336" alt="Screenshot 2026-09-21 224323" src="https://github.com/user-attachments/assets/65a425d0-1473-4a83-890f-94491dd983bd" />
 
 
 
