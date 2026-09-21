@@ -21,7 +21,9 @@ my-project/
 
 ## Getting Started
 
-```markdown
+markdown
+
+
 
 # Customer Support AI Agent with Amazon Bedrock AgentCore
 
@@ -84,13 +86,13 @@ Lambda Functions      Amazon S3 +        Discount /        Live Amazon.com
 | **Gateway Endpoint** | `https://customersupportgateway-oef4vsera6.gateway.bedrock-agentcore.us-east-1.amazonaws.com/mcp` | MCP endpoint for order and refund tools |
 | **Execution Role** | `AgentCore-CustomerSupport-ApplicationAgentMyAgentRu-sgoCiekBlTH9` | IAM role attached with project execution access|
 
---
 
 <img width="1080" height="759" alt="Screenshot 2026-09-17 154109" src="https://github.com/user-attachments/assets/be896da5-4af6-4f03-9673-2a379840a898" />
 
 <img width="1137" height="572" alt="Screenshot 2026-09-17 154532" src="https://github.com/user-attachments/assets/1fe5564b-f04b-4b19-9530-6a27809664b7" />
 
 <img width="308" height="459" alt="Screenshot 2026-09-17 150752" src="https://github.com/user-attachments/assets/47acbd8a-0b0f-44a8-a35c-cb8534221739" />
+
 
 ## Memory Strategy & Strands Integration
 
