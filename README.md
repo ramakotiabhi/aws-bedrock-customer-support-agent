@@ -112,10 +112,10 @@ agentcore invoke '{"prompt": "Where is my order ORD-001?", "customer_id": "CUST-
 {
   "response": "Your order ORD-001 for an Echo Dot (5th Gen, Charcoal) is currently in transit with UPS. The tracking number is 1Z999AA10123456784, and the estimated delivery date is October 28, 2024.\n"
 }
-<img width="1508" height="117" alt="Screenshot 2026-09-21 215055" src="https://github.com/user-attachments/assets/bb052fb0-8e01-4a83-9587-7d47241ce89d" />
+
 
 ```
-
+<img width="1508" height="117" alt="Screenshot 2026-09-21 215055" src="https://github.com/user-attachments/assets/bb052fb0-8e01-4a83-9587-7d47241ce89d" />
 ---
 
 ### Scenario 2: Refund Processing
