@@ -160,7 +160,8 @@ agentcore invoke '{"prompt": "What is the return policy window for opened electr
 }
 
 ```
-<img width="1506" height="87" alt="Screenshot 2026-09-21 215110" src="https://github.com/user-attachments/assets/733805c4-cd2e-4189-b104-e58968818654" />
+<img width="1466" height="88" alt="Screenshot 2026-09-22 114711" src="https://github.com/user-attachments/assets/abe3e428-4b46-4b47-a9ff-c7b2dca4fee6" />
+
 
 ---
 
