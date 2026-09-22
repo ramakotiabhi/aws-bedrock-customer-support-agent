@@ -220,7 +220,8 @@ agentcore invoke '{"prompt": "Calculate my loyalty discount for an order total o
 }
 
 ```
-<img width="1506" height="120" alt="Screenshot 2026-09-21 215236" src="https://github.com/user-attachments/assets/ad2f395f-9ebc-4e6c-ac51-77d6535166c4" />
+<img width="1510" height="139" alt="Screenshot 2026-09-22 114918" src="https://github.com/user-attachments/assets/6592eec3-42f9-4f53-9bfb-a1d53c20028a" />
+
 
 ---
 
@@ -239,7 +240,11 @@ agentcore invoke '{"prompt": "Use the browser tool to visit [https://aws.amazon.
 }
 
 ```
-<img width="1507" height="122" alt="Screenshot 2026-09-21 215317" src="https://github.com/user-attachments/assets/1a6fcb93-8c01-4eb1-886d-91cf6711e154" />
+<img width="1506" height="140" alt="Screenshot 2026-09-22 115010" src="https://github.com/user-attachments/assets/41b1120f-0374-4fd8-9bf4-65ebe21dc10b" />
+
+Gateway Multi-Tool Verification Log: Terminal output showing both order lookup and refund handling executed within the same session.   
+
+<img width="1510" height="126" alt="Screenshot 2026-09-22 115048" src="https://github.com/user-attachments/assets/50fbafd9-2045-4228-869f-860ff9509fd5" />
 
 ---
 
