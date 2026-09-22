@@ -181,6 +181,8 @@ agentcore invoke '{"prompt": "My preferred contact method is email and my primar
 }
 
 ```
+<img width="717" height="60" alt="Screenshot 2026-09-22 122237" src="https://github.com/user-attachments/assets/d3bba5a1-f591-4412-a15a-2cbd13005941" />
+
 
 **Turn B (Session B — Preference Recall):**
 
@@ -197,7 +199,8 @@ agentcore invoke '{"prompt": "What is my preferred contact method and primary de
 }
 
 ```
-<img width="1502" height="349" alt="Screenshot 2026-09-21 221544" src="https://github.com/user-attachments/assets/f1b0dd67-dbd0-4fda-a592-4c9408ccf75e" />
+<img width="781" height="65" alt="Screenshot 2026-09-22 120846" src="https://github.com/user-attachments/assets/5963a65c-2599-4964-a9f2-d79bf745ba98" />
+
 
 ---
 
